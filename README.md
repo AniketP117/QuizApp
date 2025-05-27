@@ -146,8 +146,3 @@ This app is powered by:
 - [Azure Static Web Apps](https://learn.microsoft.com/en-us/azure/static-web-apps/)
 - [GitHub Actions](https://docs.github.com/en/actions)
 
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
