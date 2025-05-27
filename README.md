@@ -1,50 +1,51 @@
+# 🧠 Quiz App
 
-# 🗂️ Project Management App
-
-A fully functional and responsive **Project Management Application** built with **React**, **Vite**, and **Tailwind CSS**. This app lets users create and manage projects with tasks seamlessly. It is deployed using **Azure Static Web Apps** with automated CI/CD via **GitHub Actions**.
+A dynamic and responsive **Quiz Application** built using **React**, **Vite**, and **Tailwind CSS**. Users can take multiple quizzes with various questions and receive instant feedback.
+Deployed on **Azure Static Web Apps** with **CI/CD via GitHub Actions**.
 
 ---
 
 ## 🚀 Features
 
-- 📁 Create and delete projects
-- ✅ Add, view, and manage tasks for each project
-- 🎨 Modern UI with Tailwind CSS
-- ⚡ Fast development via Vite
-- ☁️ Hosted on Azure Static Web Apps
-- 🔄 Auto-deployment using GitHub Actions
+* ✅ Take interactive quizzes
+* 🧩 Multiple question types
+* 💯 Instant score feedback
+* 🎨 Stylish and responsive UI with Tailwind CSS
+* ⚡ Fast build and dev experience via Vite
+* ☁️ Deployed on Azure Static Web Apps
+* 🔄 Auto-deployment using GitHub Actions
 
 ---
 
-## 🛠️ Tech Stack
+## 🧰 Tech Stack
 
-| Tech            | Purpose                          |
-|-----------------|----------------------------------|
-| React           | Frontend UI library              |
-| Vite            | Fast bundler & dev server        |
-| Tailwind CSS    | Utility-first CSS framework      |
-| Azure SWA       | Static hosting platform          |
-| GitHub Actions  | CI/CD workflow for deployment    |
+| Tech           | Purpose                        |
+| -------------- | ------------------------------ |
+| React          | Frontend UI framework          |
+| Vite           | Fast bundler & dev server      |
+| Tailwind CSS   | Utility-first CSS styling      |
+| Azure SWA      | Static site hosting            |
+| GitHub Actions | CI/CD for automatic deployment |
 
 ---
 
 ## 📁 Folder Structure
 
-```
-project-management-app/
-├── dist/                  # Build output (after `npm run build`)
-├── public/                # Static assets
-│   ├── screenshots.png    # UI snapshots
-├── src/                   # Application source
-│   ├── assets/            # Static images
-│   ├── components/        # Reusable UI components
-│   ├── views/             # Main views/screens
-│   ├── App.jsx            # Main app component
-│   ├── main.jsx           # App entry point
+```bash
+quiz-app/
+├── dist/                       # Build output (after `npm run build`)
+├── public/                     # Static assets
+│   ├── favicon.ico             
+│   └── ...                     
+├── src/                        # Source code
+│   ├── components/             # React components
+│   ├── pages/                  # Main page layouts
+│   ├── App.jsx                 # Main app component
+│   ├── main.jsx                # Entry point
+│   └── index.css               # Tailwind and base styles
 ├── .github/workflows/
-│   └── azure-static-web-apps.yml # GitHub Actions config
+│   └── azure-static-web-apps.yml  # GitHub Actions deployment file
 ├── index.html
-├── index.css
 ├── vite.config.js
 ├── package.json
 └── README.md
@@ -52,30 +53,35 @@ project-management-app/
 
 ---
 
-## 💻 Local Development
+## 🧪 Local Development
 
-### Prerequisites
-- Node.js v16+
-- Git
+### Prerequisites:
 
-### Steps
+* Node.js v16+
+* Git
+
+### Steps:
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/project-management-app.git
-   cd project-management-app
-   ```
+
+```bash
+git clone https://github.com/your-username/quiz-app.git
+cd quiz-app
+```
 
 2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+
+```bash
+npm install
+```
 
 3. **Start Development Server**
-   ```bash
-   npm run dev
-   ```
-   Open: [http://localhost:5173](http://localhost:5173)
+
+```bash
+npm run dev
+```
+
+Visit: [http://localhost:5173](http://localhost:5173)
 
 ---
 
@@ -85,66 +91,63 @@ project-management-app/
 npm run build
 ```
 
-Output will be placed in the `dist/` directory.
+This will generate optimized files in the `dist/` folder.
 
 ---
 
-## 🌐 Azure Static Web Apps Deployment
+## 🚀 Azure Static Web Apps Deployment
 
-### Step-by-Step Setup
+### Step-by-Step Azure Setup
 
-1. **Install**: [VS Code Azure Tools Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
+1. **Install** VS Code Azure Tools Extension Pack
 2. **Login** to Azure inside VS Code
-3. Open Command Palette and run:
-   ```
-   Azure Static Web Apps: Create Static Web App...
-   ```
-4. Fill out the prompts:
-   - App location: `/`
-   - API location: *(leave blank)*
-   - Build output: `dist`
+3. Open the Command Palette and run:
 
-5. Azure generates a GitHub Actions workflow at:
-   ```
-   .github/workflows/azure-static-web-apps.yml
-   ```
+```bash
+Azure Static Web Apps: Create Static Web App...
+```
 
-6. Push to GitHub → your app is automatically deployed to Azure.
+4. Fill in:
+
+   * App location: `/`
+   * API location: *(leave blank)*
+   * Output location: `dist`
+5. Azure creates a GitHub Actions workflow:
+   `.github/workflows/azure-static-web-apps.yml`
+6. Every push to the repo triggers auto build & deployment
 
 ---
 
-## 🔴 Live Demo
+## 🔗 Live Demo
 
-> Replace this with your actual deployed URL:
-
-**https://calm-water-00b367910.6.azurestaticapps.net**
+Add your Azure Static Web Apps live link here:
+Example: [https://quiz-master-12345.z13.web.core.windows.net](https://quiz-master-12345.z13.web.core.windows.net)
 
 ---
 
 ## 📸 Screenshots
 
-![Quiz View](https://github.com/AniketP117/QuizApp/blob/master/public/Screenshot%202025-05-27%20212601.png)
-![Compltion View](https://github.com/AniketP117/QuizApp/blob/master/public/Screenshot%202025-05-27%20212704.png)
-![Compltion View](https://github.com/AniketP117/QuizApp/blob/master/public/Screenshot%202025-05-27%20212728.png)
-
-
----
-
-## 📌 To-Do / Roadmap
-
-- [ ] Add authentication (Azure AD or Firebase)
-- [ ] Add task priorities & due dates
-- [ ] Integrate backend (e.g., Supabase or Firebase)
+![Question View](https://github.com/AniketP117/QuizApp/blob/master/public/Screenshot%202025-05-27%20212601.png)
+![Results Page](https://github.com/AniketP117/QuizApp/blob/master/public/Screenshot%202025-05-27%20212704.png)
+![Results Page](https://github.com/AniketP117/QuizApp/blob/master/public/Screenshot%202025-05-27%20212728.png)
 
 ---
 
-## 👏 Credits
+## 🙌 Credits
 
-This app is powered by:
+Thanks to the following tools:
 
-- [React](https://reactjs.org)
-- [Vite](https://vitejs.dev)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Azure Static Web Apps](https://learn.microsoft.com/en-us/azure/static-web-apps/)
-- [GitHub Actions](https://docs.github.com/en/actions)
+* [React](https://reactjs.org)
+* [Vite](https://vitejs.dev)
+* [Tailwind CSS](https://tailwindcss.com)
+* [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/)
+* [GitHub Actions](https://github.com/features/actions)
 
+---
+
+## 🛣️ To-Do / Roadmap
+
+* [ ] Add category selection for quizzes
+* [ ] User login via Azure AD or Firebase
+* [ ] Leaderboard & score history
+* [ ] Backend integration (e.g., Supabase or Firebase)
