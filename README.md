@@ -117,7 +117,7 @@ Output will be placed in the `dist/` directory.
 
 > Replace this with your actual deployed URL:
 
-**https://your-swa-site-name.azurestaticapps.net**
+**https://calm-water-00b367910.6.azurestaticapps.net**
 
 ---
 
