@@ -123,8 +123,10 @@ Output will be placed in the `dist/` directory.
 
 ## 📸 Screenshots
 
-![Dashboard](./public/Screenshot-1.png)
-![Task View](./public/Screenshot-2.png)
+![Quiz View](https://github.com/AniketP117/QuizApp/blob/master/public/Screenshot%202025-05-27%20212601.png)
+![Compltion View](https://github.com/AniketP117/QuizApp/blob/master/public/Screenshot%202025-05-27%20212704.png)
+![Compltion View](https://github.com/AniketP117/QuizApp/blob/master/public/Screenshot%202025-05-27%20212728.png)
+
 
 ---
 
