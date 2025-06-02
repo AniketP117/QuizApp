@@ -121,7 +121,7 @@ Azure Static Web Apps: Create Static Web App...
 ## 🔗 Live Demo
 
 Add your Azure Static Web Apps live link here:
-Example: [https://quiz-master-12345.z13.web.core.windows.net]([https://quiz-master-12345.z13.web.core.windows.net](https://calm-water-00b367910.6.azurestaticapps.net))
+Example: [https://quiz-master-12345.z13.web.core.windows.net]([https://quiz-master-12345.z13.web.core.windows.net](https://calm-water-00b367910.6.azurestaticapps.net)
 
 ---
 
